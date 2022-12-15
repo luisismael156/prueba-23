@@ -37,8 +37,10 @@ let item = document.querySelectorAll(".js-cont-todo>div input");
 for (let index = 0; index < item.length; index++) {
   item[index].addEventListener("change", function () {
     if (this.checked) {
-      this.parentNode.querySelector('p');
+      this.parentNode.querySelector('p').classList.add("checksito");
     } else {
+        this.parentNode.querySelector('p').classList.remove("checksito");
+
     }
   });
 }
