@@ -7,3 +7,6 @@
 .o-container--task{
     min-height: 300px;
 }
+.checksito{
+    text-decoration: line-through; color: gray;
+}
